@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual environment
+# Virtual environments
+venv/
+promptenv/
+.env
+.env.*
+
+# FAISS index + metadata
+prompt_index.faiss
+prompt_meta.pkl
+
+# Streamlit specific
+.streamlit/
+
+# Docker
+*.pid
+*.sock
+
+# System files
+.DS_Store
